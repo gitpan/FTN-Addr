@@ -1,0 +1,19 @@
+---
+name: FTN-Addr
+version: 20090704
+author:
+  - 'Valery Kalesnik <valkoles@gmail.com>'
+abstract: Object-oriented module for creation and work with the ftn addresses.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+provides:
+  FTN::Addr:
+    file: lib/FTN/Addr.pm
+    version: 20090704
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4

@@ -1,0 +1,50 @@
+FTN-Addr
+
+Object-oriented module for working with the ftn addresses.
+
+Different representations of an address:
+  3d/4d       1:23/45          1:23/45.0
+  5d          1:23/45@fidonet  1:23/45.0@fidonet
+  fqfa        fidonet#1:23/45.0
+  brake style fidonet.1.23.45.0
+
+Comparison operators (eq, cmp, ...).
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc FTN::Addr
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=FTN-Addr
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/FTN-Addr
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/FTN-Addr
+
+    Search CPAN
+        http://search.cpan.org/dist/FTN-Addr/
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009 Valery Kalesnik
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
